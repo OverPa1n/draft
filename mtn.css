@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.header_menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_list {
+    margin-right: 82px;
+}
+
+.header_list:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header_link:hover,
+.header_link:active,
+.header_link:focus {
+    opacity: .75;
+}
+
+/*intro*/
+.intro {
+    min-height: 100vh;
+    background: url('image/image.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 500px;
+}
+
+.header__title {
+    max-width: 619px;
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.intro__subtitle {
+    max-width: 546px;
+    margin-bottom: 59px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.search-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form-field {
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 23px;
+    background: url(image/oval.svg) transparent no-repeat left top 6px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    color: white;
+    margin-right: 60px;
+}
+.search-form-field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.search-form-submit {
+    width: 171px;
+    border: 0;
+    height: 58px;
+    color: white;
+    background: #1B7DFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.search-form-submit:hover, .search-form-submit:focus, .search-form-submit:active {
+    background:  #0b3a79;
+}
+/*benefits style*/
+.benefits-wrap {
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    background-color: white;
+    max-width: 1262px;
+    margin: 0 auto;
+    position: relative;
+    /* padding: 93px 100px 111px 100px; */
+}
+.benefits-title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: white;
+}
+.benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+}
