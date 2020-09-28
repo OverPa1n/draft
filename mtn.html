@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mtn.css">
+    <link rel="stylesheet" href="mtn-min.css">
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     
@@ -26,16 +26,16 @@
                     <nav class="header_nav">
                         <ul class="header_menu">
                             <li class="header_list">
-                                <a href="" class="header_link">Articles</a>
+                                <a href="#articles" class="header_link js-scroll">Articles</a>
                             </li>
                             <li class="header_list">
-                                <a href="" class="header_link">Locations</a>
+                                <a href="#locations" class="header_link js-scroll">Locations</a>
                             </li>
                             <li class="header_list">
-                                <a href="" class="header_link">Videos</a>
+                                <a href="#videos" class="header_link js-scroll">Videos</a>
                             </li>
                             <li class="header_list">
-                                <a href="" class="header_link">Sign in</a>
+                                <a href="#sign-in" class="header_link js-scroll">Sign in</a>
                             </li>
                             <div class="header_nav_close">
                                 <span class="header_nav_closeLine"></span>
@@ -53,7 +53,7 @@
         </header>
         <!-- header end -->
         <main class="main">
-            <section class="intro">
+            <section class="intro" id='sign-in'>
                 <div class="wrapper">
                     <h1 class="header__title">Discover Amazing places in Japan
                     </h1>
@@ -166,7 +166,7 @@
     <!-- Inspired block end -->
 
     <!-- places block start -->
-    <div class="places">
+    <div class="places" id='articles'>
         <div class="wrapper-full">
             <div class="places-grid-box">
                 <div class="places-picture">
@@ -189,7 +189,7 @@
                     <p class="places-desc">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door,  </p>
                     <a href='#' class="places-link">VIEW PREFECTURE</a>
                 </div>
-                <div class="places-picture">
+                <div class="places-picture places-picture-reverse">
                     <img src="image/stairs-place.jpg" alt="temple-place" class="places_pic">
                 </div>
 
@@ -200,7 +200,7 @@
 
 
     <!-- visit block start -->
-    <section class="visit">
+    <section class="visit" id='locations'>
         <div class="wrapper-full">
             <h2 class="visit-title inspired-style-title">
                 Today top places to visit
@@ -342,7 +342,7 @@
     <!-- visit block end -->
 
     <!-- video start -->
-    <div class="video">
+    <div class="video" id='videos'>
         <div class="videos-wrapper">
 
             <div class="video-item">
